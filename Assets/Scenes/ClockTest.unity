@@ -126,18 +126,6 @@ Canvas:
     type: 3}
   m_PrefabInstance: {fileID: 8740055642743258176}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &860822579 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8740055642990125171, guid: a6e6e65b2b704e13c8de7292f20c497e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8740055642743258176}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1184028750
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 662951}
   paused: 0
-  textGameOver: {fileID: 860822579}
+  textGameOver: {fileID: 0}
   textGODescription: {fileID: 0}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1252448380
@@ -545,6 +533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8740055642742858215, guid: a6e6e65b2b704e13c8de7292f20c497e,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1184028752}
     - target: {fileID: 8740055642742858216, guid: a6e6e65b2b704e13c8de7292f20c497e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -650,11 +643,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8740055642742858215, guid: a6e6e65b2b704e13c8de7292f20c497e,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1184028752}
     - target: {fileID: 8740055641983400288, guid: a6e6e65b2b704e13c8de7292f20c497e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
